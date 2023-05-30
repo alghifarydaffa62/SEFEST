@@ -61,7 +61,7 @@
     font-weight: 700;
 }
 .layer1 {
-    backdrop-filter: brightness(60%);
+    backdrop-filter: brightness(50%);
     height: 210px;
 }
 .threat {
@@ -107,6 +107,55 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 45px;
 }
-
+.opp a {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+.chal a {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+.threat a {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+.dist a {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+.footer {
+    color: white;
+    text-align: left;
+    margin-left: 70px;
+}
+.row4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    display: block;
+}
+.col h4 {
+    font-weight: 600;
+}
+.col p {
+    padding-top: 10px;
+}
+.footer h6 {
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+}

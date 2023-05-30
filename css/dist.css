@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.Navbar {
+    font-size: 20px;
+    padding-top: 20px;
+}
+.intro h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.intro {
+    padding-left: 150px;
+    padding-top: 130px;
+    color: white;
+}
+.Jumbotron {
+    background-image: url(../img/oil\ drill.jpg);
+    background-repeat: no-repeat;
+    background-size: 1365px 675px;
+    width: 1349px;
+    height: 600px;
+}
+.layer {
+    backdrop-filter: brightness(60%);
+    height: 600px;
+}
+.one {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    align-items: center;
+    margin: 80px 120px;
+}
+.one img {
+    width: 336px;
+    height: 440px;
+    filter: drop-shadow(0px 4px 20px rgba(255, 255, 255, 0.25));
+    border-radius: 6px;
+}
+.desc {
+    color: white;
+} 
+.desc h2 {
+    font-weight: 600;
+}
+.two {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    align-items: center;
+    margin: 80px 120px;
+}
+.desc2 {
+    text-align: right;
+    color: white;
+}
+.desc2 h2 {
+    font-weight: 600;
+}
+.two img {
+    width: 336px;
+    height: 440px;
+    filter: drop-shadow(0px 4px 20px rgba(255, 255, 255, 0.25));
+    border-radius: 6px;   
+}
+.quote {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+.footer {
+    color: white;
+    text-align: left;
+    margin-left: 70px;
+}
+.row4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    display: block;
+}
+.col h4 {
+    font-weight: 600;
+}
+.col p {
+    padding-top: 10px;
+}
+.footer h6 {
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+}
