@@ -23,6 +23,18 @@
     width: 1349px;
     height: 600px;
 }
+.nav-item a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-item a:hover::after {
+    width: 100%;
+}
 .layer {
     backdrop-filter: brightness(60%);
     height: 600px;
@@ -81,7 +93,7 @@
 .menu a {
     color: white;
     text-decoration: none;
-    padding-top: 5px;
+    padding-top: 10px;
     display: block;
 }
 .col h4 {
@@ -94,4 +106,19 @@
     text-align: center;
     color: white;
     margin-top: 90px;
+}
+.menu a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.menu a:hover::after {
+    width: 100%;
+}
+.menu a {
+    width: 20%;
 }

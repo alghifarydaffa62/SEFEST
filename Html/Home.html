@@ -7,8 +7,14 @@
     <title>The Blue Side</title>
     <link rel="stylesheet" href="../css/Home.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <style>
         body {
             background-color: #101A3E;
@@ -49,16 +55,18 @@
                   </nav>
             </div>
     
-            <div class="intro">
+            <div class="intro" data-aos="fade-up" data-aos-duration="1000">
                 <h1>LIFE BELOW WATER</h1>
                 <p>Let's know the threats, disturbances, obstacles, and<br>
                     opportunities for life below the water</p>
-                <button type="button" class="btn btn-primary">Know More</button>
+                <button type="button" class="btn btn-primary">
+                  <a href="#about" style="text-decoration: none; color: white;">Know More</a>
+                </button>
             </div>
         </div>
     </div>
 
-    <div class="about">
+    <div class="about" data-aos="fade-up" data-aos-duration="1000" id="about"> 
         <h2>What is "Life Below Water" ?</h2>
 
         <div class="row1">
@@ -74,20 +82,20 @@
         </div>
     </div>
 
-    <div class="category">
+    <div class="category" data-aos="fade-up" data-aos-duration="1000">
         <h3>Let's learn about Life Below Water</h3>
 
-        <div class="row2">
+        <div class="row2" data-aos="fade-up" data-aos-duration="1000">
             <div class="threat">
-              <a href="">
+              <a href="threat.html">
                 <div class="layer1">
                     <h4>Threat</h4>
                 </div>
               </a>
             </div>
 
-            <div class="dist">
-              <a href="">
+            <div class="dist" >
+              <a href="dist.html">
                 <div class="layer1">
                     <h4>Disturbences</h4>
                 </div>
@@ -95,9 +103,9 @@
             </div>
         </div>
         
-        <div class="row3">
+        <div class="row3" data-aos="fade-up" data-aos-duration="1000">
             <div class="opp">
-              <a href="">
+              <a href="opp.html">
                 <div class="layer1">
                     <h4>Opportunity</h4>
                 </div>
@@ -105,7 +113,7 @@
             </div>
 
             <div class="chal">
-              <a href="">
+              <a href="chal.html">
                 <div class="layer1">
                     <h4>Challenge</h4>
                 </div>
@@ -128,10 +136,10 @@
           <div class="col">
             <h4>About</h4>
             <div class="menu">
-              <a href="">Threat</a>
-              <a href="">Distubences</a>
-              <a href="">Opportunity</a>
-              <a href="">Challenge</a>
+              <a href="threat.html">Threat</a>
+              <a href="dist.html">Distubences</a>
+              <a href="opp.html">Opportunity</a>
+              <a href="chal.html">Challenge</a>
             </div>
           </div>
 

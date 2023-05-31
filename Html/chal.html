@@ -7,8 +7,14 @@
     <title>Challenge</title>
     <link rel="stylesheet" href="../css/chal.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <style>
         body {
             background-color: #101A3E;
@@ -49,21 +55,23 @@
                   </nav>
             </div>
     
-            <div class="intro">
+            <div class="intro" data-aos="fade-up" data-aos-duration="1000">
                 <h1>The Challenge of<br>LIFE BELOW WATER</h1>
                 <p>The challenge of life below water refer to various<br> 
                     obstacles that has to be faced to handle it</p>
-                <button type="button" class="btn btn-primary">Know More</button>
+                <button type="button" class="btn btn-primary">
+                  <a href="#about" style="text-decoration: none; color: white;">Know More</a>
+                </button>
             </div>
         </div>
     </div>
 
-    <div class="one">
-        <img src="../img/challenge.jpg" alt="">
+    <div class="one" id="about">
+        <img src="../img/challenge.jpg" alt="" data-aos="fade-up" data-aos-duration="1000">
         
         <div class="desc">
-            <h2>Climate Changes</h2>
-            <p>climate change is causing some serious 
+            <h2 data-aos="fade-up" data-aos-duration="1000">Climate Changes</h2>
+            <p data-aos="fade-up" data-aos-duration="1000">climate change is causing some serious 
                 changes<br>in oceans, including temperature 
                 increase, sea<br>level rise, and acidification</p>
         </div>
@@ -71,27 +79,28 @@
 
     <div class="two">
         <div class="desc2">
-            <h2>Natural Disaster</h2>
-            <p>Natural disasters such as hurricanes, tropical<br>storms, 
+            <h2 data-aos="fade-up" data-aos-duration="1000">Natural Disaster</h2>
+            <p data-aos="fade-up" data-aos-duration="1000">Natural disasters such as hurricanes, tropical<br>storms, 
                 tsunamis, and landslides have the<br>potential to generate 
                 a tremendous amount of<br>marine debris</p>
         </div>
-        <img src="../img/natural disaster.jpg" alt="">
+        <img src="../img/natural disaster.jpg" alt="" data-aos="fade-up" data-aos-duration="1000">
     </div>
 
     <div class="one">
-        <img src="../img/lack awarness.jpg" alt="">
+        <img src="../img/lack awarness.jpg" alt="" data-aos="fade-up" data-aos-duration="1000">
         
         <div class="desc">
-            <h2>Lack of Awareness</h2>
-            <p>Insufficient awareness and understanding of the<br> 
+            <h2 data-aos="fade-up" data-aos-duration="1000">Raise Awareness</h2>
+            <p data-aos="fade-up" data-aos-duration="1000">Insufficient awareness and understanding of the<br> 
                 importance of marine ecosystems and sustainable<br> 
                 practices contribute to the challenges faced in<br> 
                 conserving and protecting life below water</p>
         </div>
     </div>
 
-    <h3 class="quote">"Through awareness and action, we can heal<br> 
+    <h3 class="quote" data-aos="fade-up" data-aos-duration="1000">
+      "Through awareness and action, we can heal<br> 
         the wounds of our oceans and secure a<br>thriving future for 
         life below water."</h3>
 
@@ -109,10 +118,10 @@
               <div class="col">
                 <h4>About</h4>
                 <div class="menu">
-                  <a href="">Threat</a>
-                  <a href="">Distubences</a>
-                  <a href="">Opportunity</a>
-                  <a href="">Challenge</a>
+                  <a href="threat.html">Threat</a>
+                  <a href="dist.html">Distubences</a>
+                  <a href="opp.html">Opportunity</a>
+                  <a href="chal.html">Challenge</a>
                 </div>
               </div>
     
