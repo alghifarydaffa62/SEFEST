@@ -187,3 +187,33 @@
 .menu a {
     width: 20%;
 }
+@media screen and (max-width: 576px) {
+    .Jumbotron {
+        background-size: 483px 675px;
+        width: 483px;
+    }
+    .intro h1 {
+        font-size: 30px;
+    }
+    .intro p {
+        font-size: 14px;
+    }
+    .intro {
+        padding-left: 80px;
+    }
+    .row1 {
+        display: block;
+    }
+    .text {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .row2 {
+        display: block;
+        padding-left: 25px;
+    }
+    .row3 {
+        display: block;
+        padding-left: 25px;
+    }
+}
