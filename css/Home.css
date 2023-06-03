@@ -23,125 +23,49 @@
     font-size: 60px;
     font-weight: 600;
 }
+.intro p {
+    font-size: 20px;
+}
 .intro {
-    padding-left: 150px;
-    padding-top: 130px;
+    display: block;
+    align-items: center;
+    padding: 180px 150px;
     color: white;
 }
-.Jumbotron {
-    background-image: url(../img/37130.jpg);
-    background-repeat: no-repeat;
-    background-size: 1365px 675px;
-    width: 1349px;
-    height: 600px;
+section {
+    aspect-ratio: 4/2;
+    background-attachment: fixed;
+    object-fit: contain;
 }
 .layer {
     backdrop-filter: brightness(60%);
-    height: 600px;
+    aspect-ratio: 4/2;
 }
-.about {
-    color: white;
-    font-family: 'Philosopher', sans-serif;
-    margin-top: 40px;
-}
-.about h2 {
-    font-weight: 700;
-    text-align: center;
-}
-.row1 img {
-    width: 277px;
-    height: 277px;
-    border-radius: 22px;
-    margin-left: 35px;
-}
-.row1 {
-    justify-content: space-evenly;
-    align-items: center;
-    display: flex;
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
-.text h3 {
-    font-weight: 700;
-}
-.category {
-    color: white;
-    font-family: 'Philosopher', sans-serif;
-    margin-top: 70px;
-}
-.category h3 {
-    text-align: center;
-    font-weight: 700;
-}
-.layer1 {
-    backdrop-filter: brightness(50%);
-    height: 210px;
-}
-.threat {
-    width: 424px;
-    height: 209px;
-    background-image: url(../img/threat.jpg);
+section:nth-child(1) {
+    background-image: url(../img/37130.jpg);
     background-repeat: no-repeat;
-    background-size: 424px 209px;
-    border-radius: 4px;
-} 
-
-.dist {
-    width: 424px;
-    height: 209px;
-    background-image: url(../img/disturbance.jpg);
+    background-size: 1350px;
+}
+section:nth-child(2) {
+    background-image: url(../img/threat2.jpg);
     background-repeat: no-repeat;
-    background-size: 424px 209px;
-    border-radius: 4px;
+    background-size: 1350px;
 }
-.opp {
-    width: 424px;
-    height: 209px;
-    background-image: url(../img/opportunity.jpg);
+section:nth-child(3) {
+    background-image: url(../img/disturb.jpg);
     background-repeat: no-repeat;
-    background-size: 424px 209px;
-    border-radius: 4px;
+    background-size: 1350px;
 }
-.chal {
-    width: 424px;
-    height: 209px;
-    background-image: url(../img/challenge.jpg);
+section:nth-child(4) {
+    background-image: url(../img/challenge2.jpg);
     background-repeat: no-repeat;
-    background-size: 424px 209px;
-    border-radius: 4px;
+    background-size: 1350px;
 }
-.row2 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 35px;
-}
-.row3 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 25px;
-    padding-bottom: 45px;
-}
-.opp a {
-    text-align: right;
-    text-decoration: none;
-    color: white;
-}
-.chal a {
-    text-align: right;
-    text-decoration: none;
-    color: white;
-}
-.threat a {
-    text-align: right;
-    text-decoration: none;
-    color: white;
-}
-.dist a {
-    text-align: right;
-    text-decoration: none;
-    color: white;
+section:nth-child(5) {
+    background-image: url(../img/opportunity2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px;
+    object-fit: contain;
 }
 .footer {
     color: white;
@@ -188,32 +112,32 @@
     width: 20%;
 }
 @media screen and (max-width: 576px) {
-    .Jumbotron {
-        background-size: 483px 675px;
-        width: 483px;
+    section:nth-child(1) {
+        background-size: 640px 700px;
+    }
+    section:nth-child(2) {
+        background-size: 640px 700px;
+    }
+    section:nth-child(3) {
+        background-size: 640px 700px;
+    }
+    section:nth-child(4) {
+        background-size: 640px 700px;
+    }
+    section:nth-child(5) {
+        background-size: 640px 700px;
     }
     .intro h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .intro p {
-        font-size: 14px;
+        font-size: 10.5px;
     }
     .intro {
         padding-left: 80px;
+        word-break: break-all;
     }
-    .row1 {
-        display: block;
-    }
-    .text {
-        text-align: center;
-        padding-top: 20px;
-    }
-    .row2 {
-        display: block;
-        padding-left: 25px;
-    }
-    .row3 {
-        display: block;
-        padding-left: 25px;
+    .Navbar a {
+        width: 20%;
     }
 }
