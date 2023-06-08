@@ -19,9 +19,7 @@
 .Jumbotron {
     background-image: url(../img/oil\ drill.jpg);
     background-repeat: no-repeat;
-    background-size: 1365px 675px;
-    width: 1349px;
-    height: 600px;
+    background-size: 100vw 100vh;
 }
 .nav-item a::after {
     content: '';

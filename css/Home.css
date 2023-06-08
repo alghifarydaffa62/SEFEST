@@ -44,28 +44,27 @@ section {
 section:nth-child(1) {
     background-image: url(../img/37130.jpg);
     background-repeat: no-repeat;
-    background-size: 1350px;
+    background-size: 100vw;
 }
 section:nth-child(2) {
     background-image: url(../img/threat2.jpg);
     background-repeat: no-repeat;
-    background-size: 1350px;
+    background-size: 100vw;
 }
 section:nth-child(3) {
     background-image: url(../img/disturb.jpg);
     background-repeat: no-repeat;
-    background-size: 1350px;
+    background-size: 100vw;
 }
 section:nth-child(4) {
     background-image: url(../img/challenge2.jpg);
     background-repeat: no-repeat;
-    background-size: 1350px;
+    background-size: 100vw;
 }
 section:nth-child(5) {
     background-image: url(../img/opportunity2.jpg);
     background-repeat: no-repeat;
-    background-size: 1350px;
-    object-fit: contain;
+    background-size: 100vw;
 }
 .footer {
     color: white;
