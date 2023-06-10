@@ -113,19 +113,19 @@ section:nth-child(5) {
 }
 @media screen and (max-width: 576px) {
     section:nth-child(1) {
-        background-size: 100vh 50vw;
+        background-size: 565px 765px;
     }
     section:nth-child(2) {
-        background-size: 100vh 50vw;
+        background-size: 565px 765px;
     }
     section:nth-child(3) {
-        background-size: 100vh 50vw;
+        background-size: 565px 765px;
     }
     section:nth-child(4) {
-        background-size: 100vh 50vw;
+        background-size: 565px 765px;
     }
     section:nth-child(5) {
-        background-size: 100vh 50vw;
+        background-size: 565px 765px;
     }
     .intro h1 {
         font-size: 24px;
