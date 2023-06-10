@@ -113,29 +113,29 @@ section:nth-child(5) {
 }
 @media screen and (max-width: 576px) {
     section:nth-child(1) {
-        background-size: 640px 700px;
+        background-size: 100vh 50vw;
     }
     section:nth-child(2) {
-        background-size: 640px 700px;
+        background-size: 100vh 50vw;
     }
     section:nth-child(3) {
-        background-size: 640px 700px;
+        background-size: 100vh 50vw;
     }
     section:nth-child(4) {
-        background-size: 640px 700px;
+        background-size: 100vh 50vw;
     }
     section:nth-child(5) {
-        background-size: 640px 700px;
+        background-size: 100vh 50vw;
     }
     .intro h1 {
-        font-size: 25px;
+        font-size: 24px;
     }
     .intro p {
-        font-size: 10.5px;
+        font-size: 12px;
+        word-break: break-all;
     }
     .intro {
-        padding-left: 80px;
-        word-break: break-all;
+        padding-left: 40px;
     }
     .Navbar a {
         width: 20%;
