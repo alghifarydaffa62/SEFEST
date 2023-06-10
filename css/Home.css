@@ -126,6 +126,7 @@ section:nth-child(5) {
     }
     section:nth-child(5) {
         background-size: 565px 765px;
+        background-attachment: fixed;
     }
     .intro h1 {
         font-size: 24px;
