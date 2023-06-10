@@ -124,7 +124,7 @@
 }
 @media screen and (max-width: 576px) {
     .Jumbotron {
-        background-size: 535px 675px;
+        background-size: 435px 675px;
         width: 490px;
         height: 600px;
     }
@@ -147,7 +147,7 @@
         padding-top: 20px;
     }
     .desc p {
-        font-size: 13px;
+        font-size: 11px;
         word-break: break-all;
     }
     .two {
@@ -161,7 +161,7 @@
         padding-top: 20px;
     }
     .desc2 p {
-        font-size: 12px;
+        font-size: 11px;
         word-break: break-all;
     }
     .Navbar a {
@@ -169,7 +169,7 @@
     }
     .row4 {
         display: block;
-        padding-left: 10px;
+        padding-left: 5px;
     }
     .col {
         padding-top: 20px;

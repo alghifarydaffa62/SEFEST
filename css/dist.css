@@ -129,7 +129,7 @@
 }
 @media screen and (max-width: 576px) {
     .Jumbotron {
-        background-size: 535px 675px;
+        background-size: 435px 675px;
         width: 490px;
         height: 600px;
     }
@@ -177,5 +177,8 @@
     }
     .col {
         padding-top: 20px;
+    }
+    .quote {
+        font-size: 14px;
     }
 }
