@@ -131,7 +131,7 @@
 @media screen and (max-width: 576px) {
     .Jumbotron {
         background-size: 395px 675px;
-        width: 410px;
+        width: 380px;
         height: 600px;
     }
     .intro h1 {
